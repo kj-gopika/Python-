@@ -36,18 +36,6 @@ for i in range(0,len(word)):
         hint=hint+"*"
 print hint
 
-'''
-for i in range(0,length-2):
-    if(chances>0):
-        j=raw_input('Enter letter: ')
-        if(word[i]==j):
-            hint[i]=j
-        chances=chances-1   
-    else:
-        break    
-    print hint    
-if tries==chances:
-    print "The answer was "+word'''
 #word="applebird"
 lword=word.lower()
 word1=list(lword)
